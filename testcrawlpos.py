@@ -1,3 +1,10 @@
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+import pandas as pd, numpy as np
+import math
+import pyodbc 
+import time
+
 regional=['20004','25004','30004','10004','40004','50004','60004','70704','80004','90004','99004']
 nopenlist=[]
 for j in range (10,11):
